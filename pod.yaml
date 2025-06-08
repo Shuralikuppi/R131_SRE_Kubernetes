@@ -8,4 +8,3 @@ spec:
       image: sudeepsh/sre-test-image:1.0
       ports:
         - containerPorts: 3015
-
