@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Cart-app-Pod
+spec:
+  containers:
+    - name: test-containers
+      image: sudeepsh/sre-test-image:1.0
+      ports:
+        -  containers: 3015
