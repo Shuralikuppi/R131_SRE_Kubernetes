@@ -7,4 +7,5 @@ spec:
     - name: test-containers
       image: sudeepsh/sre-test-image:1.0
       ports:
-        -  containers: 3015
+        - containers: 3015
+
